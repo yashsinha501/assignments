@@ -1,0 +1,30 @@
+Ans 1 => Guido van Rossum
+Ans 2 => Python is a high-level object-oriented programming language. 
+         It has built-in data structures, combined with dynamic binding and typing, which makes it an ideal choice for rapid application development. 
+         Python also offers support for modules and packages, which allows system modularity and code reuse.
+Ans 3 => Yes, Python is a case-sensitive language, i.e., it treats uppercase and lowercase characters differently. This applies to identifiers too
+Ans 4 => .py
+Ans 5 => Python is an interpreted language, which means the source code of a Python program is converted into bytecode that is then executed by the Python virtual machine
+Ans 6 => Indentation is used to define a block of code in python
+Ans 7 => # character
+Ans 8 => python_version()
+Ans 9 => lambda function
+Ans 10 => Preferred installer program
+Ans 11 => len(),list(),abs(),object(),round(),reversed()
+Ans 12 => 79 characters 
+Ans 13 => Data science.
+          Scientific and mathematical computing.
+          Web development.
+          Finance and trading.
+          System automation and administration.
+          Computer graphics.
+          Basic game development.
+          Security and penetration testing.
+Ans 14 => Memory management in Python involves a private heap containing all Python objects and data structures.
+Ans 15 => Right-clicking This PC and going to Properties.
+          * Clicking on the Advanced system settings in the menu on the left.
+          * Clicking on the Environment Variables button o​n the bottom right.
+          * In the System variables section, selecting the Path variable and clicking on Edit. The next screen will show all the directories that are currently a part of the PATH variable.
+          * Clicking on New and entering Python’s install directory.
+Ans 16 => Indentation refers to the spaces at the beginning of a code line. 
+          Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
