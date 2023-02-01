@@ -1,0 +1,128 @@
+Ans 1 =>
+
+val = int(input("Enter your Percentage: "))
+print(val)
+if val>90 :
+    print("A")
+elif val>80 and val<=90 :
+    print("B")
+elif val>=60 and val<=80 :
+    print("C")
+else:
+    print("D")
+    
+    
+Ans 2 => 
+
+val = int(input("Enter Cost price of the bike : "))
+if val>100000 :
+    print("The road tax is : ")
+    print(val+float(val/100)*15)
+elif val>50000 and val<=100000 :
+    print("The road tax is : ")
+    print(val+float(val/100)*10)
+elif val<=50000 :
+    print("The road tax is : ")
+    print(val+float(val/100)*5)
+
+Ans 3 => 
+
+val = input("Enter city name : ")
+if val=="Delhi" :
+    print("Red Fort")
+elif val=="Agra":
+    print('Taj Mahal')
+elif val=="Jaipur":
+    print('Jai Mahal')
+else :
+    print('Not in the list')
+    
+ Ans 4 =>
+ 
+ val = int(input("Enter Cost price of the bike : "))
+ans=0
+while val>10:
+    val=val/3
+    ans=ans+1
+print(ans)
+
+Ans 5 =>
+
+A while loop will run a piece of code while a condition is True. It will keep executing the desired set of code statements until that condition is no longer True.
+A while loop will always first check the condition before running.
+If the condition evaluates to True then the loop will run the code within the loop's body.
+
+Syntax => while condition:
+            execute this code in the loop's body
+            
+ Example => 
+ 
+ number = 0
+while number < 10:
+    print(f"Number is {number}!")
+    number = number + 1
+    
+    
+ Ans 6 => 
+ 
+ Pattern 1
+ 
+n = int(input('Enter number of rows : '))
+ 
+i = 1
+while i <= n :
+    j = 1
+    while j <= i:
+        print("*", end = " ")
+        j += 1
+    print()
+    i += 1
+    
+
+Pattern 2 
+
+n = int(input('Enter number of rows : '))
+ 
+i = 1
+while i <= n :
+    j = n
+    while j >= i:
+        print("*", end = " ")
+        j -= 1
+    print()
+    i += 1
+    
+    
+
+Pattern 3
+
+n = int(input('Enter number of rows : '))
+
+for i in range(1, n):
+    num = 1
+    for j in range(n, 0, -1):
+        if j > i:
+            print(" ", end=' ')
+        else:
+            print(num, end=' ')
+            num += 1
+    print("")
+ 
+ 
+ Ans 7 => 
+ 
+ i = 10
+while i > 0:
+    print(i)
+    i = i - 1
+    
+    
+ Ans 8 => 
+ 
+ i = 10
+while i > 0:
+    print(i)
+    i = i - 1
+    
+    
+    
